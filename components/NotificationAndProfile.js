@@ -1,12 +1,15 @@
-import { Avatar, Button } from "@material-ui/core";
-import NotificationsNoneIcon from "@material-ui/icons/NotificationsNone";
-import { PrivateOffice } from "./styled";
+import { Button } from "@material-ui/core";
+import {
+  PrivateOffice,
+  StyledAvatar,
+  StyledNotificationsNoneIcon,
+} from "./styled";
 
 export default function NotificationAndProfile() {
   return (
     <PrivateOffice>
-      <NotificationsNoneIcon />
-      <Avatar />
+      <StyledNotificationsNoneIcon color="primary" />
+      <StyledAvatar />
     </PrivateOffice>
   );
 }
